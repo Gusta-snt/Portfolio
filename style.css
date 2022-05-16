@@ -1,0 +1,81 @@
+header {
+    background-color: #16161e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+}
+
+a {
+    font-size: 20px;
+    color: #fff;
+}
+
+#DownloadCV {
+    color: #000;
+    background-color: #2add1a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+#imgLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#capa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #333337;
+    color: #fff;
+    font-size: 40px;
+}
+
+#front {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#imgGustavo {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sobre {
+    background-color: #16161e;
+    color: #fff;
+    height: 90vh;
+}
+
+#txtsobre {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+#psobre {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-bottom: 10vh;
+    border-bottom: 2px solid #fff;
+}
