@@ -61,7 +61,7 @@ a {
 #sobre {
     background-color: #16161e;
     color: #fff;
-    height: 90vh;
+    height: 100vh;
 }
 
 #subtitulos {
@@ -86,6 +86,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 #barraProgresso {
@@ -141,3 +142,20 @@ a {
     gap: 10px;
 }
 
+#Projetos {
+    background-color: #16161e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#img-proj-portfolio {
+    border-radius: 40px; 
+}
+
+#lbl-proj-portfolio {
+    color: #fff;
+    font-size: 30px;
+}
