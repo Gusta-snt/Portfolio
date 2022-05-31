@@ -12,6 +12,10 @@ nav {
     align-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #navegacao {
     font-size: 20px;
     color: #fff;
