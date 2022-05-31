@@ -1,15 +1,24 @@
 header {
     background-color: #16161e;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    position:fixed;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    flex-direction: row;
-    gap: 28px;
     align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+li{
+    list-style: none;
 }
 
 html {
@@ -19,6 +28,7 @@ html {
 #navegacao {
     font-size: 20px;
     color: #fff;
+    margin-left: 28px;
 }
 
 #DownloadCV {
@@ -30,6 +40,8 @@ html {
     padding-right: 10px;
     border-radius: 60px;
     font-size: 20px;
+    margin-left: 28px;
+    display: inline-block;
 }
 
 #imgLogo {
@@ -44,6 +56,7 @@ html {
     background-color: #333337;
     color: #fff;
     font-size: 40px;
+    padding-top: 84px;
 }
 
 #front {

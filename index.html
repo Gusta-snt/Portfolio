@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Assets/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsividade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo">
-        <nav>
-            <a href="#sobre" id="navegacao">•Sobre</a>
-            <a href="#Skills" id="navegacao">•Skills</a>
-            <a href="#Projetos" id="navegacao">•Projetos</a>
-            <a href="#Contatos" id="navegacao">•Contatos</a>
-            <a href="#" id="DownloadCV">Download CV</a>
+        <a href=""><img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo"></a>
+        <nav id="nav">
+            <div id="menu-mobile">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </div>
+            <ul id="ul">
+                <li><a href="#sobre" id="navegacao">•Sobre</a></li>
+                <li><a href="#Skills" id="navegacao">•Skills</a></li>
+                <li><a href="#Projetos" id="navegacao">•Projetos</a></li>
+                <li><a href="#Contatos" id="navegacao">•Contatos</a></li>
+                <li><a href="#" id="DownloadCV">Download CV</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -100,6 +108,7 @@
         <a href="https://github.com/Gusta-snt"><img src="Assets/github.png" alt="Logo do github"></a>
     </footer>
     <script src="script.js"></script>
+    <script src="responsividade.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
        (function(){
