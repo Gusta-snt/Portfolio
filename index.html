@@ -17,12 +17,12 @@
     <header>
         <a href=""><img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo"></a>
         <nav id="nav">
-            <div id="menu-mobile">
+            <div id="menu-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="ul" aria-expanded="false">
                 <div class="linha1"></div>
                 <div class="linha2"></div>
                 <div class="linha3"></div>
             </div>
-            <ul id="ul">
+            <ul id="ul" role="menu">
                 <li><a href="#sobre" id="navegacao">•Sobre</a></li>
                 <li><a href="#Skills" id="navegacao">•Skills</a></li>
                 <li><a href="#Projetos" id="navegacao">•Projetos</a></li>
@@ -37,7 +37,10 @@
                 <h1>Gustavo <br> Ferreira</h1>
                 <h2 id="front">Front-end developer</h2>
             </div>
-            <img src="Assets/Gusta-500.png" alt="Foto de Gustavo Ferreira" id="imgGustavo">
+            <picture>
+                <source srcset="Assets/Gusta-390.png" media="(max-width:480px)">
+                <img src="Assets/Gusta-500.png" alt="Foto de Gustavo Ferreira" id="imgGustavo">
+            </picture>
         </section>
         <section id="sobre">
             <h2 id="subtitulos">Sobre</h2>
