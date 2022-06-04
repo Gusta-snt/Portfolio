@@ -83,7 +83,8 @@ li{
 #sobre {
     background-color: #16161e;
     color: #fff;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 30px;
 }
 
 #subtitulos {
@@ -113,7 +114,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 #barraProgresso {
@@ -171,7 +172,7 @@ li{
 
 #Projetos {
     background-color: #16161e;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
