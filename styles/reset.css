@@ -28,9 +28,11 @@ a {
 
 body {
 	line-height: 1;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 ol, ul {
-	list-style: disc;
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -45,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-body {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+main {
+    width: 100%;
 }

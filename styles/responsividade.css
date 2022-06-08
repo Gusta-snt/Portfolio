@@ -49,13 +49,12 @@
 
     .navegacao, li {
         display: block;
-        padding: 2.0rem;
+        padding: 3.0rem;
         text-align: center;
     }
 
     .navegacao:hover {
         background-color: #1c1c1f;
-        text-align: center;
     }
 
     #nav.active #ul {

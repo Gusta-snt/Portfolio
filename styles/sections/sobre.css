@@ -1,0 +1,23 @@
+#sobre {
+    background-color: #16161e;
+    color: #fff;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#subtitulos {
+    font-size: 7.0rem;
+    text-align: center;
+    padding-top: 5.1rem;
+    margin-bottom: 51px;
+    color: #fff;
+}
+
+#psobre {
+    font-size: 3.0rem;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-bottom: 10vh;
+    border-bottom: 2px solid #fff;
+}
