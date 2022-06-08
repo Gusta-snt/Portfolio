@@ -23,10 +23,10 @@
                 <div class="linha3"></div>
             </div>
             <ul id="ul" role="menu">
-                <li><a href="#sobre" id="navegacao">•Sobre</a></li>
-                <li><a href="#Skills" id="navegacao">•Skills</a></li>
-                <li><a href="#Projetos" id="navegacao">•Projetos</a></li>
-                <li><a href="#Contatos" id="navegacao">•Contatos</a></li>
+                <li><a href="#sobre" class="navegacao">•Sobre</a></li>
+                <li><a href="#Skills" class="navegacao">•Skills</a></li>
+                <li><a href="#Projetos" class="navegacao">•Projetos</a></li>
+                <li><a href="#Contatos" class="navegacao">•Contatos</a></li>
                 <li><a href="#" id="DownloadCV">Download CV</a></li>
             </ul>
         </nav>
@@ -39,8 +39,8 @@
             </div>
             <picture>
                 <source srcset="Assets/Gusta-250.png" media="(max-width:384px)">
-                <source srcset="Assets/Gusta-390.png" media="(max-width:480px)">
-                <img src="Assets/Gusta-500.png" alt="Foto de Gustavo Ferreira" id="imgGustavo">
+                <source srcset="Assets/Gusta-390.png" media="(max-width:520px)">
+                <img src="Assets/Gusta-500.png" alt="Foto de Gustavo Ferreira">
             </picture>
         </section>
         <section id="sobre">
@@ -50,34 +50,50 @@
         <section id="Skills">
             <h2 id="subtitulos">Skills</h2>
             <div id="barras">
-                <div>
+                <div class="subGrupoBarras">
                     <div id="imgEBarras">
-                        <img src="Assets/html-200.png" alt="HTML">
+                        <picture>
+                            <source srcset="Assets/html-98.png" media="(max-width:410px)">
+                            <source srcset="Assets/html-140.png" media="(max-width:520px)">
+                            <img src="Assets/html-200.png" alt="HTML">
+                        </picture>
                         <div id="barraELabel">
-                            <div id="barraProgresso"><div id="progressoHTML"></div></div>
+                            <div class="barraProgresso"><div id="progressoHTML"></div></div>
                             <p id="pProgress">55%</p>
                         </div>
                     </div>
                     <div id="imgEBarras">
-                        <img src="Assets/css-200.png" alt="CSS">
+                        <picture>
+                            <source srcset="Assets/css-98.png" media="(max-width:410px)">
+                            <source srcset="Assets/css-140.png" media="(max-width:520px)">
+                            <img src="Assets/css-200.png" alt="CSS">
+                        </picture>
                         <div id="barraELabel">
-                            <div id="barraProgresso"><div id="progressoCSS"></div></div>
+                            <div class="barraProgresso"><div id="progressoCSS"></div></div>
                             <p id="pProgress">40%</p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="subGrupoBarras">
                     <div id="imgEBarras">
-                        <img src="Assets/js-200.png" alt="JavaScript">
+                        <picture>
+                            <source srcset="Assets/js-98.png" media="(max-width:410px)">
+                            <source srcset="Assets/js-140.png" media="(max-width:520px)">
+                            <img src="Assets/js-200.png" alt="JavaScript">
+                        </picture>
                         <div id="barraELabel">
-                            <div id="barraProgresso"><div id="progressoJS"></div></div>
+                            <div class="barraProgresso"><div id="progressoJS"></div></div>
                             <p id="pProgress">20%</p>
                         </div>
                     </div>
                     <div id="imgEBarras">
-                        <img src="Assets/c-200.png" alt="Linguagem C">
+                        <picture>
+                            <source srcset="Assets/c-98.png" media="(max-width:410px)">
+                            <source srcset="Assets/c-140.png" media="(max-width:520px)">
+                            <img src="Assets/c-200.png" alt="Linguagem C">
+                        </picture>
                         <div id="barraELabel">
-                            <div id="barraProgresso"><div id="progressoC"></div></div>
+                            <div class="barraProgresso"><div id="progressoC"></div></div>
                             <p id="pProgress">60%</p>
                         </div>
                     </div>
