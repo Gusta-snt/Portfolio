@@ -23,7 +23,7 @@
                 <div class="linha3"></div>
             </div>
             <ul id="ul" role="menu">
-                <li><a href="#sobre" class="navegacao">•Sobre</a></li>
+                <li><a href="#sobre" class="navegacao" >•Sobre</a></li>
                 <li><a href="#Skills" class="navegacao">•Skills</a></li>
                 <li><a href="#Projetos" class="navegacao">•Projetos</a></li>
                 <li><a href="#Contatos" class="navegacao">•Contatos</a></li>
@@ -102,7 +102,13 @@
         </section>
         <section id="Projetos">
             <h2 id="subtitulos">Projetos</h2>
-            <a href="" id="proj-portfolio"><img src="Assets/logoClaro-300.png" alt="Portfólio" id="img-proj-portfolio"></a>
+            <a href="#" id="proj-portfolio">
+                <picture>
+                    <source srcset="Assets/logoClaro-200.png" media="(max-width:350px)">
+                    <source srcset="Assets/logoClaro-250.png" media="(max-width:520px)">
+                    <img src="Assets/logoClaro-300.png" alt="Portfólio" id="img-proj-portfolio">
+                </picture>
+            </a>
             <p id="lbl-proj-portfolio">Portfólio</p>
         </section>
         <section id="Contatos">

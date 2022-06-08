@@ -139,6 +139,10 @@
     #progressoC {
         width: 120px;
     }
+
+    #input-email, #input-escreva, #lbl-contatos {
+        font-size: 2rem;
+    }
     
 }
 
@@ -179,6 +183,18 @@
 
     #pProgress {
         font-size: 2rem;
+    }
+
+    #subtitulos {
+        font-size: 5rem;
+    }
+
+    #btn-enviar {
+        font-size: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
     
 }

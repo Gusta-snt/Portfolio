@@ -1,9 +1,9 @@
 const mobileResponsiv = document.getElementById("menu-mobile");
+const navegacao = document.getElementById("nav");
 
 function toggleMobile(e){
 
     if (e.type === 'touchstart') e.preventDefault();
-    const navegacao = document.getElementById("nav");
 
     navegacao.classList.toggle("active");
     mobileResponsiv.classList.toggle("active");
