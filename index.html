@@ -28,7 +28,13 @@
 </head>
 <body>
     <header>
-        <a href=""><img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo"></a>
+        <a href="">
+            <picture>
+                <source srcset="Assets/logo-150.png" media="(min-width:2400px)">
+                <source srcset="Assets/logo.jpg" media="(min-width:1500px)">
+                <img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo">
+            </picture>
+        </a>
         <nav id="nav">
             <div id="menu-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="ul" aria-expanded="false">
                 <div class="linha1"></div>
@@ -53,7 +59,10 @@
             <picture>
                 <source srcset="Assets/Gusta-250.png" media="(max-width:384px)">
                 <source srcset="Assets/Gusta-390.png" media="(max-width:520px)">
-                <img src="Assets/Gusta-500.png" alt="Foto de Gustavo Ferreira">
+                <source srcset="Assets/Gusta-500.png" media="(max-width:1500px)">
+                <source srcset="Assets/Gusta-800.png" media="(max-width:2000px)">
+                <source srcset="Assets/Gusta-1200.png" media="(max-width:2800px)">
+                <img src="Assets/Gusta-1500.png" alt="Foto de Gustavo Ferreira">
             </picture>
         </section>
         <section id="sobre">

@@ -228,3 +228,98 @@
     }
     
 }
+
+@media only screen and (min-width:1500px){
+
+    h1 {
+        font-size: 9rem;
+    }
+
+    #front {
+        font-size: 3rem;
+    }
+
+    header {
+        height: 150px;
+    }
+
+    #capa {
+        padding-top: 150px;
+        height: calc(100vh - 150px);
+    }
+    
+}
+
+@media only screen and (min-width:1900px){
+
+    h1 {
+        font-size: 12rem;
+    }
+
+    #front {
+        font-size: 4rem;
+    }
+
+    
+}
+
+@media only screen and (min-width:2220px){
+
+    header {
+        height: 200px;
+    }
+
+    #capa {
+        padding-top: 200px;
+        height: calc(100vh - 200px);
+    }
+
+    .navegacao {
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+
+    #DownloadCV {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 150px;
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+    
+}
+
+@media only screen and (min-width:2400px){
+
+    h1 {
+        font-size: 16rem;
+    }
+
+    #front {
+        font-size: 5rem;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    #capa {
+        padding-top: 250px;
+        height: calc(100vh - 250px);
+    }
+
+    .navegacao {
+        font-size: 5rem;
+    }
+
+    #DownloadCV {
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 5rem;
+    }
+    
+}
