@@ -229,28 +229,8 @@
     
 }
 
-@media only screen and (min-width:1500px){
 
-    h1 {
-        font-size: 9rem;
-    }
-
-    #front {
-        font-size: 3rem;
-    }
-
-    header {
-        height: 150px;
-    }
-
-    #capa {
-        padding-top: 150px;
-        height: calc(100vh - 150px);
-    }
-    
-}
-
-@media only screen and (min-width:1900px){
+@media only screen and (min-width:2220px){
 
     h1 {
         font-size: 12rem;
@@ -259,11 +239,6 @@
     #front {
         font-size: 4rem;
     }
-
-    
-}
-
-@media only screen and (min-width:2220px){
 
     header {
         height: 200px;
@@ -275,39 +250,108 @@
     }
 
     .navegacao {
-        font-size: 3rem;
+        font-size: 4rem;
         margin-left: 50px;
     }
 
     #DownloadCV {
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         padding-left: 2rem;
         padding-right: 2rem;
         border-radius: 150px;
-        font-size: 3rem;
+        font-size: 4rem;
         margin-left: 50px;
     }
     
+    #subtitulos {
+        font-size: 15rem;
+        padding-top: 50px;
+    }
+
+    #psobre {
+        font-size: 6rem;
+        margin-bottom: 50px;
+    }
+
+    .barraProgresso {
+        height: 50px;
+        width: 500px;
+    }
+
+    #progressoHTML {
+        height: 50px;
+        width: 275px;
+    }
+
+    #progressoCSS {
+        height: 50px;
+        width: 200px;
+    }
+
+    #progressoC {
+        height: 50px;
+        width: 300px;
+    }
+
+    #progressoJS {
+        height: 50px;
+        width: 100px;
+    }
+
+    #pProgress {
+        font-size: 7rem;
+    }
+
+    #img-proj-portfolio {
+        border-radius: 5rem;
+        margin-top: 50px;
+    }
+
+    #lbl-proj-portfolio {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 6rem;
+    }
+
+    #desc-contatos, #lbl-contatos, #input-email, #input-escreva, #btn-enviar {
+        font-size: 7rem;
+    }
+
+    #btn-enviar {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 14rem;
+        padding-right: 14rem;
+        border-radius: 3rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        gap: 40px;
+
+    }
+
 }
 
-@media only screen and (min-width:2400px){
-
-    h1 {
-        font-size: 16rem;
-    }
-
-    #front {
-        font-size: 5rem;
-    }
+@media only screen and (min-width:2800px){
 
     header {
         height: 250px;
     }
 
+    h1{
+        font-size: 17rem;
+    }
+
+    #front {
+        font-size: 6rem;
+    }
+
     #capa {
         padding-top: 250px;
-        height: calc(100vh - 250px);
+        height: auto;
     }
 
     .navegacao {
@@ -321,5 +365,40 @@
         padding-right: 4rem;
         font-size: 5rem;
     }
-    
+
+    #subtitulos {
+        font-size: 20rem;
+        padding-top: 100px;
+    }
+
+    #psobre {
+        font-size: 8rem;
+        margin-bottom: 100px;
+    }
+
+    .barraProgresso {
+        height: 70px;
+        width: 700px;
+    }
+
+    #progressoHTML {
+        height: 70px;
+        width: 385px;
+    }
+
+    #progressoCSS {
+        height: 70px;
+        width: 280px;
+    }
+
+    #progressoC {
+        height: 70px;
+        width: 420px;
+    }
+
+    #progressoJS {
+        height: 70px;
+        width: 140px;
+    }
+  
 }
