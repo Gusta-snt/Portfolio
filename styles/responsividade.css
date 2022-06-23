@@ -1,45 +1,45 @@
-#menu-mobile div {
+#btn-mobile div {
     width: 32px;
     height: 2px;
     background: #fff;
     margin: 8px;
 }
 
-#menu-mobile {
+#btn-mobile {
     display: none;
     cursor: pointer;
 }
 
 
 @media only screen and (max-width:800px){
-    #menu-mobile{
+    #btn-mobile{
         display: block;
         overflow: hidden;
     }
 
-    #menu-mobile div {
+    #btn-mobile div {
         transition: .5s;
     }
 
-    #menu-mobile.active .linha2 {
+    #btn-mobile.active .line2 {
         transform: translateX(60px);
     }
 
-    #menu-mobile.active .linha1 {
+    #btn-mobile.active .line1 {
         transform: translateY(10px) rotate(45deg);
     }
 
-    #menu-mobile.active .linha3 {
+    #btn-mobile.active .line3 {
         transform: translateY(-10px) rotate(-45deg);
     }
 
-    #ul {
+    #menu-list {
         display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
-        top: 83px;
-        right: 0px;
-        background-color: #16161e;
+        top: 85px;
+        right: 0;
+        background-color: var(--black);
         height: 0;
         transition: .6s;
         z-index: 1000;
@@ -57,7 +57,7 @@
         background-color: #1c1c1f;
     }
 
-    #nav.active #ul {
+    #navigation.active #menu-list {
         height: calc(100vh - 83px);
         visibility: visible;
         position: fixed;

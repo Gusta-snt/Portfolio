@@ -1,5 +1,5 @@
-const mobileResponsiv = document.getElementById("menu-mobile");
-const navegacao = document.getElementById("nav");
+const mobileResponsiv = document.getElementById("btn-mobile");
+const navegacao = document.getElementById("navigation");
 const sobre = document.getElementById("btn-sobre");
 const skills = document.getElementById("btn-skills");
 const projetos = document.getElementById("btn-projetos");
@@ -14,9 +14,9 @@ function toggleMobile(e){
     const active = navegacao.classList.contains('active')
     e.currentTarget.setAttribute('aria-expanded', active);
     if (active) {
-        e.currentTarget.setAttribute('aria-label', "Fechar Menu");
+        e.currentTarget.setAttribute('aria-label', "Close Menu");
     }else {
-        e.currentTarget.setAttribute('aria-label', "Abrir Menu");
+        e.currentTarget.setAttribute('aria-label', "Open Menu");
     }
 
     console.log(navegacao.classList.value);

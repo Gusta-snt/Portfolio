@@ -1,5 +1,5 @@
 #Contatos {
-    background-color: #333337;
+    background-color: var(--grey);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -35,11 +35,12 @@
 #btn-enviar {
     font-size: 2.5rem;
     color: #000;
-    background-color: #2add1a;
+    background-color: var(--green);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 7rem;
     padding-right: 7rem;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }

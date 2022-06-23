@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfólio - Gustavo Ferreira</title>
+    <title>Gustavo's Portfolio</title>
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
-        <!--Estilos de cada section da tag main-->
     <link rel="stylesheet" href="styles/sections/capa.css">
     <link rel="stylesheet" href="styles/sections/contatos.css">
     <link rel="stylesheet" href="styles/sections/projetos.css">
     <link rel="stylesheet" href="styles/sections/skills.css">
     <link rel="stylesheet" href="styles/sections/sobre.css">
-        <!--\\-->
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/responsividade.css">
-    <link rel="stylesheet" href="styles/reset.css">
     
-    <link rel="shortcut icon" href="Assets/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,27 +25,29 @@
 </head>
 <body>
     <header>
-        <a href="">
-            <picture>
-                <source srcset="Assets/logo-150.png" media="(min-width:2400px)">
-                <source srcset="Assets/logo.jpg" media="(min-width:1500px)">
-                <img src="Assets/logo-60.jpg" alt="Logo do portfólio" id="imgLogo">
-            </picture>
-        </a>
-        <nav id="nav">
-            <div id="menu-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="ul" aria-expanded="false">
-                <div class="linha1"></div>
-                <div class="linha2"></div>
-                <div class="linha3"></div>
-            </div>
-            <ul id="ul" role="menu">
-                <li><a href="#sobre" class="navegacao" id="btn-sobre">•Sobre</a></li>
-                <li><a href="#Skills" class="navegacao" id="btn-skills">•Skills</a></li>
-                <li><a href="#Projetos" class="navegacao" id="btn-projetos">•Projetos</a></li>
-                <li><a href="#Contatos" class="navegacao" id="btn-contatos">•Contatos</a></li>
-                <li><a href="#" id="DownloadCV">Download CV</a></li>
-            </ul>
-        </nav>
+        <div class="header-wrapper">
+            <a href="https://gustasnt-portfolio.vercel.app/">
+                <picture>
+                    <source srcset="Assets/logo-150.png" media="(min-width:2400px)">
+                    <source srcset="Assets/logo.jpg" media="(min-width:1500px)">
+                    <img src="Assets/logo-60.jpg" alt="Portfolio logo">
+                </picture>
+            </a>
+            <nav id="navigation">
+                <div id="btn-mobile" aria-label="Open menu" aria-haspopup="true" aria-controls="menu-list" aria-expanded="false">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul id="menu-list" role="menu">
+                    <li><a href="#sobre" class="navegacao" id="btn-sobre">•About</a></li>
+                    <li><a href="#Skills" class="navegacao" id="btn-skills">•Skills</a></li>
+                    <li><a href="#Projetos" class="navegacao" id="btn-projetos">•Projects</a></li>
+                    <li><a href="#Contatos" class="navegacao" id="btn-contatos">•Contacts</a></li>
+                    <li><a href="#" id="DownloadCV">Download CV</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="capa">
@@ -62,15 +61,15 @@
                 <source srcset="Assets/Gusta-500.png" media="(max-width:1500px)">
                 <source srcset="Assets/Gusta-800.png" media="(max-width:2000px)">
                 <source srcset="Assets/Gusta-1200.png" media="(max-width:2800px)">
-                <img src="Assets/Gusta-1500.png" alt="Foto de Gustavo Ferreira">
+                <img src="Assets/Gusta-1500.png" alt="Profile photo">
             </picture>
         </section>
         <section id="sobre">
-            <h2 id="subtitulos">Sobre</h2>
-            <p id="psobre">Hoje, estudante de programação, inicio a carreira de dev Front-End. Quando eu era aluno do Instituto Federal Goiano, conheci a programação por meio do curso de técnico integrado ao ensino médio de Automação Industrial, onde aprendi lógica de programação e linguagem C. Com o tempo, fui me aprimorando até que conheci HTML, CSS e JS, que são tecnologias importantes para minha carreira. Meu objetivo é me tornar um grande programador no futuro, com a finalidade de fazer com que a vida das pessoas se torne mais fácil, por meio da tecnologia.</p>
+            <h2 id="subtitulos">ABOUT</h2>
+            <p id="psobre">Today, as a programming student, I'm starting my Front-End developer career. When I was a student at the Instituto Federal Goiano, I got to know programming through the technical course integrated into the high school of Industrial Automation, where I learned programming logic and C language. Over time, I improved until I knew HTML, CSS and JS , which are important technologies for my career. My goal is to become a great programmer in the future, in order to make people's lives easier through technology.</p>
         </section>
         <section id="Skills">
-            <h2 id="subtitulos">Skills</h2>
+            <h2 id="subtitulos">SKILLS</h2>
             <div id="barras">
                 <div class="subGrupoBarras">
                     <div id="imgEBarras">
@@ -116,7 +115,7 @@
                             <source srcset="Assets/c-98.png" media="(max-width:410px)">
                             <source srcset="Assets/c-140.png" media="(max-width:520px)">
                             <source srcset="Assets/c-200.png" media="(max-width:1900px)">
-                            <img src="Assets/c-500.png" alt="Linguagem C">
+                            <img src="Assets/c-500.png" alt="C language">
                         </picture>
                         <div id="barraELabel">
                             <div class="barraProgresso"><div id="progressoC"></div></div>
@@ -127,32 +126,32 @@
             </div>
         </section>
         <section id="Projetos">
-            <h2 id="subtitulos">Projetos</h2>
-            <a href="#" id="proj-portfolio">
+            <h2 id="subtitulos">PROJECTS</h2>
+            <a href="https://gustasnt-portfolio.vercel.app/" id="proj-portfolio">
                 <picture>
                     <source srcset="Assets/logoClaro-200.png" media="(max-width:350px)">
                     <source srcset="Assets/logoClaro-250.png" media="(max-width:520px)">
                     <source srcset="Assets/logoClaro-300.png" media="(max-width:1900px)">
-                    <img src="Assets/logoClaro.png" alt="Portfólio" id="img-proj-portfolio">
+                    <img src="Assets/logoClaro.png" alt="My Portfolio" id="img-proj-portfolio">
                 </picture>
             </a>
-            <p id="lbl-proj-portfolio">Portfólio</p>
+            <p id="lbl-proj-portfolio">My Portfolio</p>
         </section>
         <section id="Contatos">
-            <h2 id="subtitulos">Contatos</h2>
-            <p id="desc-contatos">Mande um email :)</p>
+            <h2 id="subtitulos">CONTACTS</h2>
+            <p id="desc-contatos">Send an email :)</p>
 
             <div>
-                <p id="lbl-contatos">De:</p>
-                <input type="email" id="input-email" placeholder="Seu email" required>
+                <p id="lbl-contatos">From:</p>
+                <input type="email" id="input-email" placeholder="Your email" required>
             </div>
                 
             <div>
-                <p id="lbl-contatos">Escreva:</p>
-                <textarea cols="30" rows="5" id="input-escreva" placeholder="Sua mensagem" wrap="hard" required></textarea>
+                <p id="lbl-contatos">Write:</p>
+                <textarea cols="30" rows="5" id="input-escreva" placeholder="Your message" wrap="hard" required></textarea>
             </div>
                 
-            <button type="submit" id="btn-enviar" onclick="enviarEmail()">Enviar</button>
+            <button type="submit" id="btn-enviar" onclick="enviarEmail()">Send</button>
         </section>
     </main>
     <footer>
@@ -160,7 +159,7 @@
             <picture>
                 <source srcset="Assets/linkedin.png" media="(max-width:2210px)">
                 <source srcset="Assets/linkedin-110.png" media="(max-width:2800px)">
-                <img src="Assets/linkedin-150.png" alt="Logo do linkedin">
+                <img src="Assets/linkedin-150.png" alt="My linkedin">
             </picture>
             
         </a>
@@ -168,7 +167,7 @@
             <picture>
                 <source srcset="Assets/instagram.png" media="(max-width:2210px)">
                 <source srcset="Assets/instagram-110.png" media="(max-width:2800px)">
-                <img src="Assets/instagram-150.png" alt="Logo do instagram">
+                <img src="Assets/instagram-150.png" alt="My instagram">
             </picture>
             
         </a>
@@ -176,7 +175,7 @@
             <picture>
                 <source srcset="Assets/github.png" media="(max-width:2210px)">
                 <source srcset="Assets/github-110.png" media="(max-width:2800px)">
-                <img src="Assets/github-150.png" alt="Logo do github">
+                <img src="Assets/github-150.png" alt="My Github">
             </picture>
         </a>
     </footer>

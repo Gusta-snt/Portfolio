@@ -3,11 +3,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #333337;
+    background-color: var(--grey);
     color: #fff;
     font-size: 4.0rem;
     padding-top: 84px;
-    height: calc(100vh - 84px);
+    height: 100vh;
 }
 
 #front {

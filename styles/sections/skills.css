@@ -1,5 +1,5 @@
 #Skills {
-    background-color: #333337;
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,31 +10,31 @@
 .barraProgresso {
     height: 21px;
     width: 281px;
-    background-color: #16161e;
+    background-color: var(--black);
 }
 
 #progressoHTML {
     width: 157px;
     height: 21px;
-    background-color: #2add1a;
+    background-color: var(--green);
 }
 
 #progressoCSS {
     width: 101px;
     height: 21px;
-    background-color: #2add1a;
+    background-color: var(--green);
 }
 
 #progressoJS {
     width: 55px;
     height: 21px;
-    background-color: #2add1a;
+    background-color: var(--green);
 }
 
 #progressoC {
     width: 172px;
     height: 21px;
-    background-color: #2add1a;
+    background-color: var(--green);
 }
 
 #pProgress {

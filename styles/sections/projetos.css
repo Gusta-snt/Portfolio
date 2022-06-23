@@ -1,5 +1,5 @@
 #Projetos {
-    background-color: #16161e;
+    background-color: var(--black);
     height: auto;
     display: flex;
     flex-direction: column;
