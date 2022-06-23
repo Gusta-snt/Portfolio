@@ -30,6 +30,7 @@
     font-size: 4.0rem;
     padding-top: 84px;
     height: 100vh;
+    min-height: 600px;
 }
 
 #front {

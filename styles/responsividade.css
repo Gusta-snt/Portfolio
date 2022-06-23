@@ -229,6 +229,18 @@
     
 }
 
+@media only screen and (min-width:1500px){
+    #capa {
+        min-height: 900px;
+    }
+}
+
+@media only screen and (min-width:2000px){
+    #capa {
+        min-height: 1300px;
+    }
+}
+
 
 @media only screen and (min-width:2220px){
 
@@ -246,7 +258,7 @@
 
     #capa {
         padding-top: 200px;
-        height: calc(100vh - 200px);
+        min-height: 1500px;
     }
 
     .navegacao {
