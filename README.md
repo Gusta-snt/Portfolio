@@ -34,7 +34,7 @@
 
 <div id="license">
     <h2>License</h2>
-    <p>This project use the MIT license. Check the LICENSE file for mor infos.</p>
+    <p>This project use the MIT license. Check the LICENSE file for more infos.</p>
 <div>
  
 <div id="technologies">
