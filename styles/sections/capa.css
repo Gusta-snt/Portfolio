@@ -1,3 +1,25 @@
+@keyframes rightToLeft {
+    0% {
+        right: -20px;
+        opacity: 0;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        left: -20px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
 #capa {
     display: flex;
     flex-direction: row;
@@ -19,4 +41,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    animation-name: leftToRight;
+    animation-duration: 1s;
+    z-index: -0;
+}
+
+#profileImage {
+    position: relative;
+    animation-name: rightToLeft;
+    animation-duration: 1s;
+    z-index: -0;
 }
